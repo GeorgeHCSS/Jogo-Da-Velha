@@ -6,7 +6,7 @@ let gameState = ["", "", "", "", "", "", "", "", ""];
 
 const winningMessage = () => `Jogador ${currentPlayer} Ganhou!`;
 const drawMessage = () => `Empatou`;
-const currentPlayerTurn = () => `Vez do ${currentPlayer} Jogar !`;
+const currentPlayerTurn = () => `Vez do ${currentPlayer} Jogar`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
 
