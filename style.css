@@ -2,15 +2,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
+    
 }
+
+
 section {
     text-align: center;
 }
 
 .game--title {
-    font-size: 100px;
+    font-size: max(50px, 5vw);
     color: #f3af10;
     margin: 10px auto;
+    
 }
 
 .game--container {
@@ -35,7 +39,7 @@ section {
 
 }
 .game--status {
-    font-size: 50px;
+    font-size: max(30px, 5vw);
     color: #f3af10;
     margin: 40px auto;
 }
